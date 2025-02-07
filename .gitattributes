@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
-* text=auto
++-----------------------------------------------------+
+|                Mobile Fitness App                   |
+|                                                     |
+|  (1) Create Account                                 |
+|                                                     |
+|  (2) Login                                          |----<<include>>----> (1) Create Account
+|                                                     |
+|  (3) Log Workout                                    |----<<include>>----> (4) Track Progress
+|                                                     |
+|  (4) Track Progress                                 |
+|                                                     |
+|  (5) Make Payment                                   |
+|                                                     |----<<extend>>----> (6) Receive Notifications
+|                                                     |
+|  (7) View Workouts                                  |
+|                                                     |
+|  (8) Reset Password                                 |----<<extend>>----> (9) Send Confirmation Email
+|                                                     |
+|  (10) Manage Users (Admin only)                     |
+|                                                     |
+|  (11) Update Content (Admin only)                   |
+|                                                     |
++-----------------------------------------------------+
